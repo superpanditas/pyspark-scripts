@@ -1,0 +1,8 @@
+# create env
+conda create --name [name] python=[version]
+
+# activate env 
+conda activate [name]
+
+# see all envs
+conda --info envs
