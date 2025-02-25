@@ -1,0 +1,26 @@
+# Ignorar la carpeta materials
+pyspark_datacamp_materials/
+
+# Ignorar archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar entornos virtuales
+venv/
+.env/
+
+# Ignorar archivos de configuración del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de salida o compilación
+*.out
+*.o
+*.class
+*.jar
+*.tsv
