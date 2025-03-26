@@ -6,3 +6,9 @@ conda activate [name]
 
 # see all envs
 conda --info envs
+
+# activate env
+conda activate [env]
+
+# run program 
+spark-submit [file.py] 
