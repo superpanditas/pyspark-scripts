@@ -1,6 +1,7 @@
 '''
 Case Study: Uber Eats 7-Day Moving Average of Daily Sales
-You are an Analytics & Automation Manager at Uber Eats, and your team wants to track the 7-day moving average of daily sales per restaurant to monitor performance trends.
+You are an Analytics & Automation Manager at Uber Eats, and your team wants to track the 7-day moving average of 
+daily sales per restaurant to monitor performance trends.
 '''
 
 from pyspark.sql import SparkSession 

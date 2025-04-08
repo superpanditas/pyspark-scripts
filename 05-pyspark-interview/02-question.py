@@ -1,12 +1,14 @@
 '''
 Question:
-Your company wants to anticipate staffing needs by identifying the top two busiest times of the week. Each day should be segmented into different parts using the following criteria:
+Your company wants to anticipate staffing needs by identifying the top two busiest times of the week. 
+Each day should be segmented into different parts using the following criteria:
 
 Morning: Before 12 p.m. (not inclusive)
 Early Afternoon: 12 - 15 p.m.
 Late Afternoon: After 15 p.m. (not inclusive)
 
-Your output should include the day and time of day combination for the two busiest times with the most orders, along with the number of orders.
+Your output should include the day and time of day combination for the two busiest times with the most orders, 
+along with the number of orders.
 
 For example, the results might include:
 Friday Late Afternoon with 12 orders

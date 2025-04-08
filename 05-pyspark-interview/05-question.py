@@ -1,7 +1,10 @@
 '''
 𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧
-You are working as a Data Engineer, and the company has a log system where timestamps are recorded for every user action (e.g., when the user logs in and logs out). Your manager wants to know how much time each user spends between log in and log out.
-The system generates logs with login_timestamp and logout_timestamp columns. You need to calculate the difference between the logout_timestamp and login_timestamp in hours, minutes, and seconds. The result should be formatted like "HH:mm:ss".
+You are working as a Data Engineer, and the company has a log system where timestamps are recorded for every user action 
+(e.g., when the user logs in and logs out). Your manager wants to know how much time each user spends between log in 
+and log out.
+The system generates logs with login_timestamp and logout_timestamp columns. You need to calculate the difference between 
+the logout_timestamp and login_timestamp in hours, minutes, and seconds. The result should be formatted like "HH:mm:ss".
 '''
 
 from pyspark.sql import SparkSession 

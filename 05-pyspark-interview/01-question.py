@@ -1,6 +1,8 @@
 '''
 Question:
-You are given a dataset containing sales data for different stores across various months. Each row contains the store name, the month, and the sales amount. Your task is to calculate the cumulative sales for each store, considering the monthly sales, using PySpark.
+You are given a dataset containing sales data for different stores across various months. 
+Each row contains the store name, the month, and the sales amount. Your task is to calculate the cumulative sales for each store, 
+considering the monthly sales, using PySpark.
 
 You should also:
 Filter out stores with sales lower than 1000 in any month.
