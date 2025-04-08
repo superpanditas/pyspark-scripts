@@ -23,11 +23,12 @@ columns = ['employee_id', 'department', 'salary']
 # create dataframe
 df = spark.createDataFrame(data, columns)
 
+# calculate average salary by department
 df_grouped = df.groupBy('department').agg(
     F.avg('salary').alias('salary_avg')
 ).orderBy(F.col('salary_avg').desc())
 
-# show df 
+# show df_grouped 
 df_grouped.show(truncate=False)
 
 # stop session 
